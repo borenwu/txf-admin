@@ -1,1 +1,0 @@
-webpackJsonp([0],{"KC6+":function(e,s,n){"use strict";s.a=function(e,s){Object(t.Message)({showClose:!0,message:e,type:s})};var t=n("dVeB");n.n(t)}});

@@ -289,13 +289,17 @@ export default {
       date_range: "",
 
       rules: {
+        title:[
+            { required: true, message: "请填写订单标题", trigger: "blur" }
+        ],
         description: [
           { required: true, message: "请填写订单描述", trigger: "blur" }
         ],
         balance: [
           { required: true, message: "请输入一个数值", trigger: "blur" }
         ],
-        sale_price: [{ required: true }]
+        sale_price: [{ required: true }],
+        unit:[{required:true}]
       },
 
       search: "",
